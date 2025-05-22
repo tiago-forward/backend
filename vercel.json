@@ -5,5 +5,11 @@
       "src": "api/main.go",
       "use": "@vercel/go"
     }
+  ],
+  "routes": [
+    {
+      "src": "/createUser",
+      "dest": "/api/main.go"
+    }
   ]
 }
