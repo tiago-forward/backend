@@ -8,7 +8,7 @@
   ],
   "routes": [
     {
-      "src": "/createUser",
+      "src": "/getUserById",
       "dest": "/api/main.go"
     }
   ]
